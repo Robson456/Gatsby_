@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from '../layout/index'
-import Home from "../components/home";
+import Home from "../components/home/index";
+
 
 const IndexPage = () => (
   

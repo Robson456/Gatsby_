@@ -2,17 +2,16 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 export const MainWrapper = styled.div`
-    
 
 `;
 export const Wrapper = styled.div`
-width: 100%;
-    height: 200px;
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #000000;
-    background: white;
+    background: #ffffff;
 `;
 export const Nav = styled.div`
     @media(max-width: 768px){
@@ -20,7 +19,7 @@ export const Nav = styled.div`
     }
 `;
 export const Logo = styled.div`
-    font-size: 2rem;
+    font-size: 2.5rem;
 `;
 export const StyledLink = styled(Link)`
 text-decoration: none;
