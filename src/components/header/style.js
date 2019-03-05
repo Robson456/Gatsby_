@@ -64,7 +64,6 @@ export const HamburgerMenu = styled.div`
 export const Mobile = styled.div`  
     
     height: 100%;
-    background: red;
     display: flex;
     opacity: ${props => props.isVisible ? '1'  : '0'};
     flex-direction: column;

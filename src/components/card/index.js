@@ -6,7 +6,7 @@ export default class index extends Component {
     return (
       <El.MainWrapper>
         <El.Wrapper>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aperiam earum esse? At magnam consectetur ratione nostrum delectus sed corrupti illum sint reiciendis architecto, molestiae eos esse autem, aspernatur temporibus!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aperiam earum esse? At magnam consectetur ratione Lorem ipsum  </p>
         </El.Wrapper>
       </El.MainWrapper>
     )
