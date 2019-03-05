@@ -44,6 +44,7 @@ export default class index extends Component {
       handleCollapseMenu = () => this.setState(prevState => ({collapsed: !prevState.collapsed}), console.log('click'))
     
   render() {
+
     const { collapsed } = this.state
 
     return (
@@ -51,7 +52,7 @@ export default class index extends Component {
           <El.Wrapper>
 
           <El.Logo>
-            <h1>Home Rental</h1>
+            <p>Home Rental</p>
            </El.Logo> 
            <El.HamburgerMenu
                   className={collapsed ? 'isOpen' : ''}

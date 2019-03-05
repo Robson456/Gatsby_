@@ -9,12 +9,10 @@ body {
   padding; 0;
   margin: 0;
   font-family: 'Montserrat';
-  // color: black;
 }
 `;
 const StyledWrapper = styled.div`
   height: 100vh;
-  display: flex;
   justify-content: center;
   position: relative;
   
