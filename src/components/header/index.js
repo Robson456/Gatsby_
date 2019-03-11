@@ -54,6 +54,7 @@ class Header extends React.Component {
             <El.MainWrapper>
               <El.Wrapper className="header">
                 <El.Logo>
+
                   <p>Home Rental</p>
                   </El.Logo>
 

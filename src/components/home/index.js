@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import {StaticQuery, graphql} from 'gatsby';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
-import backgroundImage from '../../images/front.jpg';
 import Card from '../card/index';
+import Location from '../loaction/index';
 
 
 const Background = styled.div`
@@ -39,11 +39,11 @@ export default class  extends Component {
         
         render = { data => (
           <>
-            <Background >
-              {/* <Header>The best neighborhood</Header> */}
+            <Background>
               <Img fluid={data.file.childImageSharp.fluid} />
             </Background>
             <Card/>
+            <Location />
             
           </>
         )

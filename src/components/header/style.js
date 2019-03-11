@@ -19,13 +19,14 @@ export const Nav = styled.div`
     }
 `;
 export const Logo = styled.div`
-    font-size: 2.5rem;
+    font-size: 2rem;
 `;
 export const StyledLink = styled(Link)`
 text-decoration: none;
   color: #000000;
   margin: 10px;
   font-size: 1.5rem;
+ 
    
 `;
 
