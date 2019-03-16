@@ -14,8 +14,8 @@ export const MainWrapper = styled.div`
 export const Image = styled.div`
     width: 100%;   
     box-shadow: 
-        21px -21px 0 -1px white,
-        22px -22px 0 2px black;
+        11px -11px 0 -1px white,
+        12px -12px 0 2px black;
 `;  
 export const ButtonWrapper = styled.div`
     justify-content: center;
@@ -45,7 +45,7 @@ export const Text = styled.div`
     font-size: 1.5rem;
     width: 50%;
     justify-content: flex-start;
-    text-align: center;
+    // text-align: center;
     margin: 0 3%;
     p{
         text-indent: 5%;

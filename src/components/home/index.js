@@ -4,6 +4,8 @@ import Img from 'gatsby-image';
 import styled from 'styled-components';
 import Card from '../card/index';
 import Location from '../loaction/index';
+import Property from '../property/index';
+import Gallery from '../gallery/index';
 
 
 const Background = styled.div`
@@ -42,8 +44,11 @@ export default class  extends Component {
             <Background>
               <Img fluid={data.file.childImageSharp.fluid} />
             </Background>
-            <Card/>
+            <Card />
             <Location />
+            <Property />
+            <Gallery />
+
             
           </>
         )

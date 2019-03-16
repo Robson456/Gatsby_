@@ -69,6 +69,6 @@ export const Mobile = styled.div`
     opacity: ${props => props.isVisible ? '1'  : '0'};
     flex-direction: column;
     visibility: ${props => props.isVisible ? 'visible'  : 'hidden'};
-    height: ${props => props.isVisible ? '200px'  : '0px'};
+    height: ${props => props.isVisible ? '300px'  : '0px'};
     transition: height 0.5s ease, visibility 0s;
 `;
