@@ -5,7 +5,7 @@ export const MainWrapper = styled.div`
     flex-direction: row;
     justify-content: space-between; 
     background: #2E323B;
-    margin: 5% 0;
+    // margin: 5% 0;
 
     @media(max-width: 769px){
         display: flex;

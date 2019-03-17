@@ -6,6 +6,7 @@ import Card from '../card/index';
 import Location from '../loaction/index';
 import Property from '../property/index';
 import Gallery from '../gallery/index';
+import Quote from '../quote/index';
 
 
 const Background = styled.div`
@@ -48,6 +49,7 @@ export default class  extends Component {
             <Location />
             <Property />
             <Gallery />
+            <Quote />
 
             
           </>
