@@ -9,7 +9,7 @@ export default class index extends Component {
         return (
           <StaticQuery
         query = {graphql`
-        query PropertyQuery {
+        query galleryQuery {
           file(relativePath: {eq: "salon2.jpg"}) {
             childImageSharp {
                 fluid {
@@ -25,7 +25,7 @@ export default class index extends Component {
                 <El.MainWrapper>
                     <h1>Gallery</h1>
                     <El.Image>
-                        <Img  />
+                        <Img fluid={data.file.childImageSharp.fluid} />
                     </El.Image>
                     <El.Text>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto rem quas deserunt! Impedit, obcaecati ipsa? Earum laboriosam placeat reiciendis sit pariatur corrupti itaque reprehenderit quisquam quae nemo. Pariatur, odit consequuntur.
