@@ -3,26 +3,29 @@ import Img from 'gatsby-image';
 import * as El from './style';
 import {StaticQuery, graphql} from 'gatsby';
 
+
 export default class index extends Component {
     render() {
         return (
-            <StaticQuery
-            query = {graphql`
-            query GalleryQuery {
-              file(relativePath: {eq: "tvroom.jpg"}) {
-                childImageSharp {
-                    fluid {
-                      ...GatsbyImageSharpFluid
-                    }
+          <StaticQuery
+        query = {graphql`
+        query PropertyQuery {
+          file(relativePath: {eq: "salon2.jpg"}) {
+            childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
                 }
             }
-            }
-            `}
-            
-            render = { data => (
+        }
+        }
+        `}
+        
+        render = { data => (
+          
                 <El.MainWrapper>
+                    <h1>Gallery</h1>
                     <El.Image>
-                        <Img fluid={data.file.childImageSharp.fluid}/>
+                        <Img  />
                     </El.Image>
                     <El.Text>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto rem quas deserunt! Impedit, obcaecati ipsa? Earum laboriosam placeat reiciendis sit pariatur corrupti itaque reprehenderit quisquam quae nemo. Pariatur, odit consequuntur.
@@ -35,5 +38,5 @@ export default class index extends Component {
       }
       />
     )
-    }
+  }
 }

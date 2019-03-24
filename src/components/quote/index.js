@@ -20,41 +20,39 @@ const Description = [
   }
 ]
 const MainWrapper = styled.div`
-    // dispaly: flex;
-    // flex-direction: column;
+    dispaly: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 25%;
+
+    // font-size: 1.5rem;
+    // line-height: 1.5rem;
+    // display: flex;
     // justify-content: center;
     // align-items: center;
-    // margin: 5% 25%;
-    // position: relative;
-
-    font-size: 1.5rem;
-  line-height: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &:focus{
-    outline: none !important;
-  }
+    // &:focus{
+    //   outline: none !important;
+    // }
 `;
 
-const Quote = styled.blockquote`
-font-size: 1.4rem;
+const Quote = styled.div`
+  font-size: 2rem;
   line-height: 2.5rem;
-  color: #707070;
-  quotes: "\201C""\201D""\2018""\2019" !important;
+  flex-direction: row;
 
-  ${this}::before{
+  ::before{
     content: '"';
-    font-size:2.4em;
+    display: block;
+    font-size: 2.4em;
     position: relative;
     top: 0.5rem;
   }
-  ${this}::after {
+  ::after {
     content: '"';
-    font-size:2.4em;     
+    display: block;
+    font-size: 2.4em;
     position: relative;
-    top: 2.9rem;
-    left: 0.3rem;
+    top: 0.5em; 
   }
   
   @media (max-width: 1024px) {
@@ -65,17 +63,17 @@ font-size: 1.4rem;
 const AddWrap = styled.div`
   width: 100%;
   display: flex;
-justify-content: center;
-text-align:center;
-margin: 0 auto;
-padding: 5rem 0 5rem 0;
+  justify-content: center;
+  text-align:center;
+  margin: 0 auto;
+  padding: 5rem 0 5rem 0;
 `;
 
 
 export default class index extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,

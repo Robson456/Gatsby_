@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
+    font-size: 2rem;
     justify-content: space-around;
     align-items: center;
     align-text: center;
@@ -21,6 +22,7 @@ export const Image = styled.div`
 `;
 export const Text = styled.div`
     margin: 0 20% 5% 20%;
+    font-size: 1rem;
     text-indent: 5%;
     line-height: 1.6;
 `;

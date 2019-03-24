@@ -7,6 +7,7 @@ import Location from '../loaction/index';
 import Property from '../property/index';
 import Gallery from '../gallery/index';
 import Quote from '../quote/index';
+import Contact from '../contact/index';
 
 
 const Background = styled.div`
@@ -50,6 +51,7 @@ export default class  extends Component {
             <Property />
             <Gallery />
             <Quote />
+            <Contact />
 
             
           </>

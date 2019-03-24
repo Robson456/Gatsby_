@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import * as El from './style'
 import Img from 'gatsby-image'
 import {StaticQuery, graphql} from 'gatsby';
-import Carousel from 'react-responsive-carousel';
 
 export default class index extends Component {
   render() {
