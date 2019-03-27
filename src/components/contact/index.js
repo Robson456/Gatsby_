@@ -18,7 +18,7 @@ export default class index extends Component {
         </El.Wrapper>
         <El.ContactWrapper>
           
-        <form name="contact" method="POST" data-netlify="true">
+        <form  value="" name="contact" method="POST" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>   
           </p>
